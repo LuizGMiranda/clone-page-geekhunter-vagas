@@ -1,0 +1,4 @@
+header {
+  background-image: linear-gradient(var(--color-primary), var(--color-primary-ligth));
+  margin-bottom: 50px;
+}

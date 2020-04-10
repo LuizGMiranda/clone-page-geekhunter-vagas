@@ -1,0 +1,39 @@
+.vagas-desenvolvedores {
+  margin-top: 50px;
+  width: 100%;
+  text-align:center
+}
+
+.vagas-desenvolvedores h1 {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 36px;
+  color: #fff;
+  left: 0;
+  right: 0;
+}
+
+.vagas-desenvolvedores input {
+  background: transparent;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  padding: 10px 0 10px 40px;
+  margin-bottom: 30px;
+  width: 30%;
+  left: 0;
+  right: 0;
+
+  background-image: url('../../images/search.svg');
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  outline: 0;
+}
+
+.vagas-desenvolvedores input::placeholder {
+  color: #fff;
+}

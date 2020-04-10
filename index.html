@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vagas para Desenvolvedores</title>
+
+  <link rel="stylesheet" href="./assets/css/core/reset.css">
+  <link rel="stylesheet" href="./assets/css/core/variables.css">
+  <link rel="stylesheet" href="./assets/css/core/typograph.css">
+  <link rel="stylesheet" href="./assets/css/core/util.css">
+  <link rel="stylesheet" href="./assets/css/container/header.css">
+  <link rel="stylesheet" href="./assets/css/container/navbar.css">
+  <link rel="stylesheet" href="./assets/css/container/main.css">
+  <link rel="stylesheet" href="./assets/css/components/vagas-desenvolvedores.css">
+  <link rel="stylesheet" href="./assets/css/components/menu-filtros.css">
+  <link rel="stylesheet" href="./assets/css/components/card-vagas.css">
+  <link rel="stylesheet" href="./assets/css/components/subscribe-email.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <img class="" src="./assets/images/logo.svg" />
+      <ul>
+        <li><button class="vagas">Ver vagas</button></li>
+        <li><a href="#" class="empresa">Sou empresa</a></li>
+        <li><a href="#" class="candidato">Sou candidato</a></li>
+        <li><a href="#" class="perfil">Meu perfil</a></li>
+        <li><button class="sair">Sair</button></li>
+      </ul>
+    </nav>
+    <div class="vagas-desenvolvedores">
+      <h1>Vagas para Desenvolvedores</h1>
+      <input type="search" placeholder="Pesquise vagas pela tecnologia desejada..."/>
+    </div>
+  </header>
+  <main class="container">
+    <aside id="menu-filtros">
+      <div class="vagas">
+        <h2>Vagas</h2>
+        <p>250 resultados</p>
+      </div>
+      <div class="filtros">
+        <h2>Ver filtro</h2>
+        <div class="todos-filtros">
+          <div class="filtro-selecao">
+            <h3>Localização</h3>
+            <ul>
+              <li>São Paulo <span>(10)</span></li>
+              <li>Florianopolis <span>(10)</span></li>
+              <li>Rio de Janeiro <span>(10)</span></li>
+            </ul>
+          </div>
+          <div class="filtro-selecao">
+            <h3>Área de atuação</h3>
+            <ul>
+              <li>Full-stack <span>(10)</span></li>
+              <li>Back-end <span>(10)</span></li>
+              <li>Front-end <span>(10)</span></li>
+            </ul>
+          </div>
+          <div class="filtro-selecao">
+            <h3>Tipo de trabalho</h3>
+            <ul>
+              <li>Remoto <span>(10)</span></li>
+              <li>Apenas presencial <span>(10)</span></li>
+            </ul>
+          </div>
+          <div class="filtro-selecao">
+            <h3>Organizar vagas</h3>
+            <select name="organizar-vagas" id="organizar-vagas">
+              <option value="1">Mais novas</option>
+              <option value="2">Mais velhas</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+    </aside>
+    <section id="lista-vagas">
+      <article class="card-vagas">
+        <h4 class="title">Desenvolvedor Front-end</h4>
+        <p class="cidade">São José - SC</p>
+        <p class="salario"><span>R$ 5.000,00</span> - <span>R$ 8.000,00</span></p>
+        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil asperiores, amet voluptatibus nostrum odio similique minus debitis sequi sit totam. Atque amet praesentium aut veniam quidem vel provident quo blanditiis?</p>
+        <ul class="tag-list">
+          <li class="tag"><a href="#"><span>Javascript</span></a></li>
+          <li class="tag"><a href="#"><span>React</span></a></li>
+          <li class="tag"><a href="#"><span>Node</span></a></li>
+          <li class="tag"><a href="#"><span>Eletron</span></a></li>
+        </ul>
+        <button class="candidatar">Demostrar interesse na vaga</button>
+        <p class="publicacao">Há 1 dia atras</p>
+      </article>
+      <article class="card-vagas">
+        <h4 class="title">Desenvolvedor Front-end</h4>
+        <p class="cidade">São José - SC</p>
+        <p class="salario"><span>R$ 5.000,00</span> - <span>R$ 8.000,00</span></p>
+        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil asperiores, amet voluptatibus nostrum odio similique minus debitis sequi sit totam. Atque amet praesentium aut veniam quidem vel provident quo blanditiis?</p>
+        <ul class="tag-list">
+          <li class="tag"><a href="#"><span>Javascript</span></a></li>
+          <li class="tag"><a href="#"><span>React</span></a></li>
+          <li class="tag"><a href="#"><span>Node</span></a></li>
+          <li class="tag"><a href="#"><span>Eletron</span></a></li>
+        </ul>
+        <button class="candidatar">Demostrar interesse na vaga</button>
+        <p class="publicacao">Há 1 dia atras</p>
+      </article>
+      <article class="card-vagas">
+        <h4 class="title">Desenvolvedor Front-end</h4>
+        <p class="cidade">São José - SC</p>
+        <p class="salario"><span>R$ 5.000,00</span> - <span>R$ 8.000,00</span></p>
+        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil asperiores, amet voluptatibus nostrum odio similique minus debitis sequi sit totam. Atque amet praesentium aut veniam quidem vel provident quo blanditiis?</p>
+        <ul class="tag-list">
+          <li class="tag"><a href="#"><span>Javascript</span></a></li>
+          <li class="tag"><a href="#"><span>React</span></a></li>
+          <li class="tag"><a href="#"><span>Node</span></a></li>
+          <li class="tag"><a href="#"><span>Eletron</span></a></li>
+        </ul>
+        <button class="candidatar">Demostrar interesse na vaga</button>
+        <p class="publicacao">Há 1 dia atras</p>
+      </article>
+    </section>
+    <section id="subscribe-email">
+      <div id="header">
+        <p class="title">Seja o primeiro a ver as novas vagas de emprego</p>
+      </div>
+      <div id="body">
+        <form action="/action_page.php">
+          <label for="email">Meu e-mail</label>
+          <input type="text" name="gender" id="email" placeholder="Digite seu email...">
+
+          <label for="email">Tecnologia</label>
+          <input type="text" name="gender" id="email" placeholder="Selecione a tecnologia...">
+
+          
+          <button type="submit">Ativar</button>
+        </form>
+      </div>
+    </section>
+
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,66 @@
+nav {
+  margin: 0 42px;
+  padding: 15px 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav > ul > li {
+  display: inline;
+  margin: 5px 5px;
+}
+
+
+nav > ul > li:hover :not(button) {
+  border-top: 1px solid var(--color-blue);
+}
+
+nav > ul > li > button {
+  cursor: pointer;
+}
+
+nav > ul > li > button, a {
+  font-size: 12px;
+  line-height: 32px;
+  text-transform: uppercase;
+  padding: 0 12px;
+}
+
+nav > ul > li > button.vagas {
+  background-color: var(--color-primary);
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 2px;
+}
+
+nav > ul > li > button.vagas:hover {
+  background-color: var(--color-blue);
+}
+
+nav > ul > li > a:link {
+  text-decoration: none;
+}
+
+nav > ul > li > a.empresa {
+  color: var(--color-yellow);
+}
+
+nav > ul > li > a.candidato {
+  color: #fff;
+}
+nav > ul > li > a.candidato:hover {
+  color: var(--color-blue);
+}
+
+nav > ul > li > a.perfil {
+  color: var(--color-blue);
+}
+
+nav > ul > li > button.sair {
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  color: #fff;
+  border-radius: 3px;
+}
